@@ -1,10 +1,11 @@
 def my_collect(array)
       i = 0
 collection = []
-    while i < array.split ( " " ) 
+    while i < array.split 
     collection << yield(array[i])
     i += 1 
   end 
   collection 
 end   
 
+end 
